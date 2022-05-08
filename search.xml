@@ -5,18 +5,12 @@
     
     <entry>
       <title>hexo_note</title>
-      <link href="/2022/05/08/hexo-note/"/>
-      <url>/2022/05/08/hexo-note/</url>
+      <link href="/2022/05/08/hexo-note-1/"/>
+      <url>/2022/05/08/hexo-note-1/</url>
       
-        <content type="html"><![CDATA[<h1 id="博客框架hexo本地的安装说明"><a href="#博客框架hexo本地的安装说明" class="headerlink" title="博客框架hexo本地的安装说明"></a>博客框架hexo本地的安装说明</h1><ul><li>前提准备了解<code>hexo</code>框架安装需要什么依赖</li><li><code>hexo</code>依赖<code>nodejs</code> 然后库的传输需要<code>git</code><h2 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h2></li><li><input disabled="" type="checkbox"> 通常来说本地环境的安装比服务器更容易搭建因为服务器环境往往需要考虑更多比如安全问题还有各种安装问题就比如我<code>centos8.2</code>的yum yum update了一下居然报错了发现没有这个源查了一下原来是cetos官网已经不对<code>centos8</code>支持</li><li><code>macos</code>使用<code>hombrew</code>下载<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">brew install git </span><br><span class="line">brew install nodejs</span><br></pre></td></tr></table></figure></li><li><code>centos</code> 可以使用<code>yum</code>或者<code>weget</code>下载官方解压包自己解压<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">yum install git</span><br><span class="line">yum install nodejs</span><br></pre></td></tr></table></figure><h2 id="安装hexo框架"><a href="#安装hexo框架" class="headerlink" title="安装hexo框架"></a>安装<code>hexo</code>框架</h2></li><li>创建一个文件夹你的<code>hexo</code>框架就下载在里面<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></li><li><input disabled="" type="checkbox"> 现在你的hexo框架就基本上安装完毕了</li><li>目录应该跟下面大差不差<br><img src="https://lihangsmart.oss-cn-hangzhou.aliyuncs.com/img/20220508151742.png" alt="hexo_1"> </li><li><code>config.yml</code>就是hexo的配置文件一些关于hexo的配置在里面配置<h2 id="hexo一些基本使用"><a href="#hexo一些基本使用" class="headerlink" title="hexo一些基本使用"></a>hexo一些基本使用</h2> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;name&quot; #新建文章</span><br><span class="line">hexo g  #渲染</span><br><span class="line">hexo s  #部署到本地</span><br><span class="line">hexo d  #部署到远程git库</span><br></pre></td></tr></table></figure><h2 id="git库的连接"><a href="#git库的连接" class="headerlink" title="git库的连接"></a><code>git库</code>的连接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;username&quot;</span><br><span class="line">git config --global user.email &quot;1941689965@qq.com&quot;</span><br><span class="line">用户名和邮箱自行修改</span><br></pre></td></tr></table></figure></li><li>用<code>ssh</code>的话还需要获取<code>ssh</code>的公钥 </li><li>如果你不知道有没有一般来说ssh的共钥如果有就放在你家目录下的.ssh文件中<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure></li><li>如果有就是上面那条命令查看公钥</li><li>没有就创建一个key<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;1941689965@qq.com&quot;</span><br></pre></td></tr></table></figure></li><li>然后重复之前的操作开查看密钥<h2 id="远程库"><a href="#远程库" class="headerlink" title="远程库"></a>远程库</h2></li><li><input disabled="" type="checkbox"> 远程库的选择(github，码云上都有类似服务Pages一个静态网站,你也可以把你的库推送到你的服务器上)</li><li>githubpage由于访问速度的关系不推荐有条件的话可以买个云轻量应用服务器,注册一个域名当然如果在服务器上搭建网站服务器在国内也需要备案</li><li>gittee还没有使用过不做评价</li></ul>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
-      
-        <tags>
-            
-            <tag> 个人博客 </tag>
-            
-        </tags>
       
     </entry>
     
