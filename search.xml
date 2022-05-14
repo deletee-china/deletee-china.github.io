@@ -121,6 +121,12 @@
       
       
       
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -136,9 +142,9 @@
       
         <tags>
             
-            <tag> macos </tag>
-            
             <tag> 命令 </tag>
+            
+            <tag> macos </tag>
             
         </tags>
       
