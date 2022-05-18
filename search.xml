@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>volhub的安装</title>
+      <link href="/2022/05/18/volhub%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/05/18/volhub%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是Vulhub？"><a href="#什么是Vulhub？" class="headerlink" title="什么是Vulhub？"></a>什么是Vulhub？</h1><ul><li><input disabled="" type="checkbox"> <code>Vulhub</code>是一个基于<code>docker</code>和<code>docker-compose</code>的漏洞环境集合，进入对应目录并执行一条语句即可启动一个全新的漏洞环境，让漏洞复现变得更加简单，让安全研究者更加专注于漏洞原理本身。Vulhub的官方地址为<a href="http://www.vulhub.org./">www.vulhub.org。</a><h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1></li><li><input disabled="" type="checkbox"> 因为Vulhub是一个基于docker和docker-compose的漏洞环境集合，所以，第一步我们需要安装docker，切换成root用户，象征性的更新一下软件，输入如下命令</li><li><input disabled="" type="checkbox"> macos<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">brew install  --cask docker </span><br><span class="line">brew install docker-compose</span><br></pre></td></tr></table></figure></li><li><input disabled="" type="checkbox"> docker -v 查看一下版本<h1 id="启动环境"><a href="#启动环境" class="headerlink" title="启动环境"></a>启动环境</h1></li><li><input disabled="" type="checkbox"> 进入对应的漏洞目录<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up -d</span><br><span class="line">docker-compose ps #查看端口信息啥的</span><br><span class="line">docker-compose down #移除环境</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Docker的入门使用</title>
       <link href="/2022/05/18/Docker%E7%9A%84%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8/"/>
       <url>/2022/05/18/Docker%E7%9A%84%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8/</url>
