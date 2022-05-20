@@ -21,7 +21,7 @@
       <link href="/2022/05/19/ctf%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/"/>
       <url>/2022/05/19/ctf%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><h2 id="file命令"><a href="#file命令" class="headerlink" title="file命令"></a>file命令</h2><ul><li><input disabled="" type="checkbox"> 当文件没有后缀名或有后缀名但无法正常打开</li><li><input disabled="" type="checkbox"> 使用场景不知道后缀名无法打开文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">file myheart</span><br></pre></td></tr></table></figure><h2 id="winhex"><a href="#winhex" class="headerlink" title="winhex"></a>winhex</h2></li><li><input disabled="" type="checkbox"> winhex可以查看文件头类型根据文件头类型，根据文件头类型判断出文件类型</li><li><input disabled="" type="checkbox"> 常见文件头的类型<br><img src="https://lihangsmart.oss-cn-hangzhou.aliyuncs.com/img/20220519135334.png"></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h1><h2 id="file命令"><a href="#file命令" class="headerlink" title="file命令"></a>file命令</h2><ul><li><input disabled="" type="checkbox"> 当文件没有后缀名或有后缀名但无法正常打开</li><li><input disabled="" type="checkbox"> 使用场景不知道后缀名无法打开文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">file myheart</span><br></pre></td></tr></table></figure><h2 id="winhex"><a href="#winhex" class="headerlink" title="winhex"></a>winhex</h2></li><li><input disabled="" type="checkbox"> winhex可以查看文件头类型根据文件头类型，根据文件头类型判断出文件类型</li><li><input disabled="" type="checkbox"> 常见文件头的类型<br><img src="https://lihangsmart.oss-cn-hangzhou.aliyuncs.com/img/20220519135335.png"></li></ul>]]></content>
       
       
       
